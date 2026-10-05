@@ -1,0 +1,25 @@
+name: "💭 Idea for a new app"
+description: Propose an app QuietKite should build next.
+title: "New app: "
+labels: ["idea", "app:new", "status:under-review"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should the app do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Who is it for, and what problem does it solve?
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How much would you use it?
+      options:
+        - Now and then
+        - Every week
+        - Every day
+    validations:
+      required: true

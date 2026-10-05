@@ -1,0 +1,44 @@
+name: "⭐ FocusLock feedback"
+description: Tell us how FocusLock is working for you.
+title: "Feedback: "
+labels: ["feedback", "app:focuslock"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking a moment! Your feedback helps decide what comes next.
+        Need help, or found a problem you'd rather not post publicly? [Contact Prasenjit privately](https://quietkite.pages.dev/contact/) instead.
+  - type: dropdown
+    id: rating
+    attributes:
+      label: How would you rate FocusLock?
+      options:
+        - "★★★★★ Love it"
+        - "★★★★☆ Like it"
+        - "★★★☆☆ It's okay"
+        - "★★☆☆☆ Needs work"
+        - "★☆☆☆☆ Not for me"
+    validations:
+      required: true
+  - type: textarea
+    id: good
+    attributes:
+      label: What's working well for you?
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: What could be better?
+  - type: input
+    id: version
+    attributes:
+      label: FocusLock version (optional)
+      description: Shown in Settings → About.
+      placeholder: "0.4.0"
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Show on the website
+      options:
+        - label: Yes, QuietKite may show this feedback with my GitHub name and picture on quietkite.pages.dev.
