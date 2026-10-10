@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thank you for taking a moment! Your feedback helps decide what comes next.
-        Need help, or found a problem you'd rather not post publicly? [Contact Prasenjit privately](https://quietkite.pages.dev/contact/) instead.
+        Need help, or found a problem you'd rather not post publicly? [Contact Prasenjit privately](https://reflectandbuild.com/contact/) instead.
   - type: dropdown
     id: rating
     attributes:
@@ -41,4 +41,4 @@ body:
     attributes:
       label: Show on the website
       options:
-        - label: Yes, QuietKite may show this feedback with my GitHub name and picture on quietkite.pages.dev.
+        - label: Yes, Reflect & Build may show this feedback with my GitHub name and picture on reflectandbuild.com.

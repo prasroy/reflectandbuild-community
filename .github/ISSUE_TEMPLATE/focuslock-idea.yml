@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping shape FocusLock! Ideas are public: others can vote with 👍, and the status shows on the [ideas board](https://quietkite.pages.dev/apps/focuslock/ideas/).
-        Please [search existing ideas](https://github.com/prasroy/quietkite-community/issues?q=is%3Aissue+label%3Aidea) first, and add a 👍 to one that matches yours.
+        Thanks for helping shape FocusLock! Ideas are public: others can vote with 👍, and the status shows on the [ideas board](https://reflectandbuild.com/apps/focuslock/ideas/).
+        Please [search existing ideas](https://github.com/prasroy/reflectandbuild-community/issues?q=is%3Aissue+label%3Aidea) first, and add a 👍 to one that matches yours.
   - type: textarea
     id: idea
     attributes:
